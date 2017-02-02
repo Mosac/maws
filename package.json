@@ -1,0 +1,22 @@
+{
+  "name": "maws",
+  "version": "1.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "src/index.ts",
+  "scripts": {
+    "build": "tsc -p ./",
+    "test": "npm run build && jasmine ./dist/src/spec/**/*"
+  },
+  "author": "",
+  "devDependencies": {
+    "@types/jasmine": "^2.5.41",
+    "@types/node": "^7.0.0",
+    "jasmine": "^2.5.3",
+    "typescript": "^2.1.5"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.9.0"
+  }
+}
