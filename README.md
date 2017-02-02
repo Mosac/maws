@@ -1,6 +1,6 @@
-> utilities for aws lambda function.
+> basic utilities for aws lambda function.
 
-## String to Ziped base64
+## String to zipped base64
 
 ```js
 import {Zlib} from "maws";
@@ -17,3 +17,7 @@ Zlib.toBase64("string");
 ```js
 Zlib.toString("{base64string}");
 ```
+
+## Dynamo DB
+
+## SES
